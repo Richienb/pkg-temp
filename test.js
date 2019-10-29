@@ -1,13 +1,6 @@
 import test from "ava"
-import theModule from "."
+import pkgTemp from "."
 
 test("main", (t) => {
-    t.throws(() => {
-        theModule(123)
-    }, {
-        instanceOf: TypeError,
-        message: "Expected a string, got number",
-    })
-
-    t.is(theModule("unicorns"), "unicorns & rainbows")
+    t.true(pkgTemp.endsWith("node_modules/.cache/pkg-temp"))
 })

@@ -1,41 +1,28 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Package temp [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/pkg-temp/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/pkg-temp)
 
-My awesome module.
+A temporary directory automatically created specifically for your package to use for caching or storage.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/pkg-temp.png)](https://npmjs.com/package/pkg-temp)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install pkg-temp
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const tempDir = require("pkg-temp");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+console.log(tempDir);
+//=> '/home/richiebendall/pkg-temp/node_modules/.cache/pkg-temp'
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
+### pkgTemp
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The directory to use.

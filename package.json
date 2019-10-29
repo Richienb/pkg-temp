@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "pkg-temp",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "A temporary directory automatically created specifically for your package to use for caching or storage.",
+    "repository": "https://github.com/Richienb/pkg-temp.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -17,11 +17,14 @@
         "lint": "eslint .",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
-    "dependencies": {},
+    "keywords": ["temp", "directory"],
+    "dependencies": {
+        "find-cache-dir": "^3.0.0",
+        "pname": "^1.0.0"
+    },
     "devDependencies": {
         "ava": "^2.1.0",
-        "eslint": "^6.5.1",
+        "eslint": "^6.6.0",
         "eslint-config-richienb": "^0.2.0"
     },
     "eslintConfig": {

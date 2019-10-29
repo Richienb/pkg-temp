@@ -1,7 +1,6 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-    if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const findCacheDir = require("find-cache-dir")
+const packageName = require("pname")
 
-    return `${input} & ${postfix}`
-}
+module.exports = findCacheDir({ name: packageName, create: true })

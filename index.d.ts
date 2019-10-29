@@ -1,7 +1,5 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * The directory to use.
  * @example
  * ```
  * const theModule = require("the-module");
@@ -9,6 +7,6 @@
  * //=> 'unicorns & rainbows'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const pkgTemp: string;
 
-export = theModule;
+export = pkgTemp;
