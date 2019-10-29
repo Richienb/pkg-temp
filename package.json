@@ -1,6 +1,6 @@
 {
     "name": "pkg-temp",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A temporary directory automatically created specifically for your package to use for caching or storage.",
     "repository": "https://github.com/Richienb/pkg-temp.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
@@ -17,7 +17,10 @@
         "lint": "eslint .",
         "test": "yarn lint && ava"
     },
-    "keywords": ["temp", "directory"],
+    "keywords": [
+        "temp",
+        "directory"
+    ],
     "dependencies": {
         "find-cache-dir": "^3.0.0",
         "pname": "^1.0.0"
