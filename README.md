@@ -16,7 +16,7 @@ npm install pkg-temp
 const tempDir = require("pkg-temp");
 
 console.log(tempDir);
-//=> '/home/richiebendall/pkg-temp/node_modules/.cache/pkg-temp'
+//=> 'C:\\Users\\richi\\AppData\\Local\\Temp\\pkg-temp'
 ```
 
 ## API
