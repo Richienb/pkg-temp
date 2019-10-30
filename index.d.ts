@@ -2,9 +2,10 @@
  * The directory to use.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const tempDir = require("pkg-temp");
+ *
+ * console.log(tempDir);
+ * //=> 'C:\\Users\\richi\\AppData\\Local\\Temp\\pkg-temp'
  * ```
 */
 declare const pkgTemp: string;
