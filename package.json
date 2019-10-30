@@ -1,6 +1,6 @@
 {
     "name": "pkg-temp",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A temporary directory automatically created specifically for your package to use for caching or storage.",
     "repository": "https://github.com/Richienb/pkg-temp.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
