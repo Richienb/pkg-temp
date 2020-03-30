@@ -27,7 +27,7 @@
         "temp-dir": "^2.0.0"
     },
     "devDependencies": {
-        "ava": "^2.1.0",
+        "ava": "^3.5.2",
         "eslint": "^6.6.0",
         "eslint-config-richienb": "^0.2.0"
     },
